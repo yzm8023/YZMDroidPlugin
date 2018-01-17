@@ -1,1 +1,1 @@
-include ':TestPlugin', ':library', ':ApiTest'
+include ':library', ':ApiTest', ':TestPlugin'

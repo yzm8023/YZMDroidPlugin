@@ -13,7 +13,7 @@ public class NativeCHelper {
     private static Throwable sThrowable;
 
     static {
-        tryLoadLibraryByName("Test");
+        tryLoadLibraryByName("DP_Native");
     }
 
     public static void tryLoadLibraryByName(String name) {

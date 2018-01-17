@@ -5,8 +5,8 @@
     android:versionName="1.0">
 
     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="23" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="22" />
 
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
@@ -153,6 +153,9 @@
         <activity
             android:name=".WebViewTestActivity"
             android:label="@string/title_activity_web_view_test"></activity>
+        <activity
+            android:name=".NativeTestActivity"
+            android:label="@string/title_activity_native_test"></activity>
     </application>
 
 </manifest>
